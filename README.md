@@ -13,9 +13,13 @@ A template repository for automatically building Kivy Android APK/AAB using GitH
 
 Make sure your project root contains `buildozer.spec`(changed parameters),`main.py`(can run on python3.9 without grammatical errors) and required files(calling with `relative path`).
 
-将`buildozer.spec`和`release.yml`中`RepositoryName`,`DomainName`,`PackageName`替换
+将`buildozer.spec`和`release.yml`中`RepositoryName`,`DomainName`,`PackageName`替换。
 
-Replace `RepositoryName`,`DomainName`,`PackageName` in `buildozer.spec` and `release.yml`
+Replace `RepositoryName`,`DomainName`,`PackageName` in `buildozer.spec` and `release.yml`.
+
+删除`debug.yml`和`release.yml`中的`非法注释`(O∆O)。
+
+Remove `illegal comments` in `debug.yml` and `release.yml`(O∆O).
 
 ### 2. 设置工作流程 | Setup Workflows
 本仓库提供两个工作流程:
