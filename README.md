@@ -8,7 +8,14 @@ A template repository for automatically building Kivy Android APK/AAB using GitH
 
 ### 0. fork本仓库或使用此模板 | Fork This Repository or Use This Template
 
+先给个star可以吗?
+
+Could you give me a star,pleeeeeeeeease?
+
+QAQ
+
 ### 1. 配置项目 | Configure Project
+
 确保项目根目录包含 `buildozer.spec` (自行修改参数),`main.py`(无语法错误,可在python3.9正常运行)和依赖文件(使用`相对路径`调用,避免中文文件名)。
 
 Make sure your project root contains `buildozer.spec`(changed parameters),`main.py`(can run on python3.9 without grammatical errors) and required files(calling with `relative path`).
